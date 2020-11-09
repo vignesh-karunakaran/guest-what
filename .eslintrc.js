@@ -18,9 +18,13 @@ module.exports = {
     'plugin:ember/recommended'
   ],
   env: {
-    browser: true
+    node: true,
+    browser: true,
+    es6: true
   },
-  rules: {},
+  rules: {
+    strict: 1
+  },
   overrides: [
     // node files
     {
